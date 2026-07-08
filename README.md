@@ -1,42 +1,65 @@
 # ResumeIQ
 
-ResumeIQ is a modern web application that helps job seekers optimize their resumes for Applicant Tracking Systems (ATS). It provides detailed resume analysis, identifies missing keywords, evaluates formatting, and generates actionable suggestions to improve interview chances.
+> **Analyze. Optimize. Get Hired.**
 
-## ✨ Features
+ResumeIQ is a modern ATS (Applicant Tracking System) resume analyzer that helps job seekers improve their resumes before applying for jobs. It provides detailed resume evaluations, ATS compatibility checks, keyword analysis, and personalized improvement suggestions powered by Google's Gemini AI—all through a simple and intuitive interface.
 
-- 📄 ATS compatibility analysis
-- 🔍 Keyword optimization
-- 📊 Resume scoring
-- 📝 Actionable improvement suggestions
-- 📈 Resume history tracking
-- 👤 User authentication
-- ⚙️ Personal dashboard and profile management
-- 🌙 Responsive and modern UI
+## 🌐 Live Demo
 
-## 🛠️ Tech Stack
+🚀 **Try ResumeIQ here:**
+
+**https://resume-iq-f5lx.onrender.com**
+
+> **Note:** This application is hosted on **Render's Free Plan**. If the website has been inactive for a while, the first request may take **30–60 seconds** to load while the server wakes up. After that, it runs normally.
+
+---
+
+# ✨ Features
+
+- 📄 ATS Resume Analysis
+- 🤖 AI-Powered Resume Feedback
+- 🔍 Keyword & Skills Detection
+- 📊 ATS Compatibility Score
+- 📝 Actionable Resume Improvement Suggestions
+- 📚 Resume Analysis History
+- 👤 User Authentication
+- ⚙️ Personal Dashboard
+- 🎨 Modern & Responsive Interface
+
+---
+
+# 🛠️ Tech Stack
 
 ### Frontend
+
 - React
 - TypeScript
 - Vite
 - CSS
 
 ### Backend
+
 - Node.js
 - TypeScript
 
 ### AI
+
 - Google Gemini API
 
-## 🚀 Getting Started
+### Deployment
 
-### Prerequisites
+- Render
 
-- Node.js (v18 or later)
+---
+
+# 🚀 Running Locally
+
+## Prerequisites
+
+- Node.js 18+
 - npm
-- A Google Gemini API key
 
-### Installation
+## Installation
 
 Clone the repository:
 
@@ -44,7 +67,7 @@ Clone the repository:
 git clone https://github.com/Ouissal-Hadji/ResumeIQ.git
 ```
 
-Navigate to the project:
+Go into the project folder:
 
 ```bash
 cd ResumeIQ
@@ -56,54 +79,69 @@ Install dependencies:
 npm install
 ```
 
-Create a `.env.local` file in the project root and add:
-
-```env
-GEMINI_API_KEY=your_api_key_here
-```
-
 Start the development server:
 
 ```bash
 npm run dev
 ```
 
-The application will be available at:
+Open your browser:
 
 ```
 http://localhost:5173
 ```
 
-## 📁 Project Structure
+> **Developer Note:** The deployed version already includes the required backend configuration. End users do **not** need to provide a Gemini API key. An API key is only required if you are running your own local instance.
+
+---
+
+# 📁 Project Structure
 
 ```
-ResumeIQ/
+ResumeIQ
+│
 ├── src/
 │   ├── components/
 │   ├── assets/
 │   ├── App.tsx
 │   └── main.tsx
+│
 ├── server.ts
 ├── package.json
 ├── vite.config.ts
 └── README.md
 ```
 
-## 📌 Use Cases
+---
 
-- Improve ATS compatibility before applying for jobs.
-- Identify missing skills and keywords.
-- Receive personalized resume improvement suggestions.
-- Track resume analysis history.
+# 🎯 What ResumeIQ Helps You Do
 
-## 🤝 Contributing
+- Improve ATS compatibility before applying
+- Discover missing keywords and skills
+- Receive AI-generated resume recommendations
+- Increase the chances of passing ATS filters
+- Build a stronger, more professional resume
 
-Contributions, issues, and feature requests are welcome. Feel free to fork the repository and submit a pull request.
+---
 
-## 📄 License
+# 🤝 Contributing
+
+Contributions, suggestions, and pull requests are always welcome.
+
+If you find a bug or have an idea for a new feature, feel free to open an issue.
+
+---
+
+# 📄 License
 
 This project is licensed under the MIT License.
 
 ---
 
-Developed by **Ouissal Hadji**.
+# 👩‍💻 Developed by
+
+# **Ouissal Hadji**
+
+**Computer Science Student • Full Stack Developer • AI Enthusiast**
+
+GitHub: https://github.com/Ouissal-Hadji
