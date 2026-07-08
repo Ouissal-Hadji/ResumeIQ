@@ -1,0 +1,8 @@
+{
+  "name": "ResumeIQ",
+  "description": "Resume ATS Screening and Analytics with detailed wording feedback and metrics quantification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

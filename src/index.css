@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@media print {
+  /* Hide standard layout wrapper and navigation */
+  header, footer, nav, button, .sm\:hidden, main > div > div:not(#print-section), main > div:not(#print-section) {
+    display: none !important;
+  }
+
+  /* Make sure background is white and text is dark */
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Only show our dedicated printable container */
+  #print-section {
+    display: block !important;
+    visibility: visible !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: static !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  /* Direct all children to print correctly */
+  #print-section * {
+    visibility: visible !important;
+  }
+  
+  /* Manage page breaks cleanly */
+  .page-break {
+    page-break-after: always;
+    break-after: page;
+  }
+}
+
+/* Ensure the print section is completely hidden during screen view */
+#print-section {
+  display: none;
+}
